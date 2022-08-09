@@ -1,4 +1,1 @@
-<script runat="server">
-    Platform.Load("Core", "1");
-	Hello!!!
-</script>
+hello!
