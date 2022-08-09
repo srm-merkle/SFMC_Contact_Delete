@@ -1,0 +1,7 @@
+<script runat="server">
+    Platform.Load("Core", "1");
+	var De = '02F29A64-BE3C-48D0-A62C-BF166F3C672C';
+	var intial  = DataExtenctsion.init(De);
+	var fields = De.Fields.Retrive();
+	write(Stringify(fields));
+</script>
